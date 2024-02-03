@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+}
+
+.App {
+  padding: 0 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
