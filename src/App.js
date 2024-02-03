@@ -64,7 +64,6 @@ function App() {
     setShowModal(!showModal);
   };
 
-  console.log(process.env.REACT_APP_BASE_URL);
   return (
     <div className="App">
       <header className="App-header">

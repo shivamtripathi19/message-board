@@ -11,14 +11,8 @@ import {
   block,
 } from "./styles";
 import { headerConstants } from "../../constants/en";
-const {
-  APP_TITLE,
-  HEADER_TITLE,
-  POST,
-  DELETE_ALL,
-  SORTBY,
-  ERROR_MESSAGE,
-} = headerConstants;
+const { APP_TITLE, HEADER_TITLE, POST, DELETE_ALL, SORTBY, ERROR_MESSAGE } =
+  headerConstants;
 
 export default function Header({
   handlerSortMessage,
@@ -48,7 +42,6 @@ export default function Header({
   useEffect(() => {
     if (error) {
       setTimeout(() => {
-        console.log("shivam");
         setError("");
       }, 2000);
     }
